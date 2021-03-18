@@ -24,4 +24,6 @@ public interface shoppingMapper extends BaseMapper<shopping> {
                             fetchType = FetchType.EAGER))})
 //            ", order_tb where shopping_tb.identify_id = order_tb.order_id")
     List<shopping> selectShop();
+
+
 }

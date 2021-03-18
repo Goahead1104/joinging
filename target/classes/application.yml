@@ -2,7 +2,7 @@ server:
   port: 8080
   servlet:
     context-path: /
-  address: 192.168.43.77
+  address: 192.168.1.104
 #  address: 10.235.159.114
 #  address: 192.168.43.77
 #  address: 10.235.146.77
@@ -28,3 +28,15 @@ IMConfig:
   secretKey: "b7ea71efab9d1ec895e34a944ab7437bf3de1902179f618e831b0087dceeb137"
 #  sdkAppId: 1400487145
 #  secretKey: "619de1cd9f8c6296fec0fb40c80677d676f6013dc0ba8f0c2e1c98bd1a445d51"
+
+#配置文件下载路径
+road:
+#头像
+  avatar: "file:E:/小程序聊天室/head/"
+  avatar_road: "/head/**"
+#身份证
+  identify: "file:E:/小程序聊天室/identify/"
+  identify_road: "/identify/**"
+#发布图片
+  image: "file:E:/小程序聊天室/image/"
+  image_road: "/image/**"
